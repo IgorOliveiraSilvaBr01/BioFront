@@ -1,0 +1,21 @@
+.search-box{
+    display: flex; /* alinhar o input e o botão lado a lado */
+    max-width: 25vw; /* largura máxima do elemento */
+    border: 1px solid #333; /* adiciona uma borda sólida com a expressura de 1 pixel */
+    border-radius: 25px; /* adiciona um arredondamento à borda de acordo com a quantidade de pixels definidos */
+    overflow: hidden; /* oculta o conteúdo que ultrapasse o limite de sua caixa definida */
+}
+
+.search-box input{ 
+    flex: 1; /* informa 100% da largura do elemento pai (form) */
+    border: none; /* sem borda / none (nenhum) */
+    padding: 10px  15px/* adiciona um espaçamento entre o texto e a borda da caixa de pesquisa / 10 top e bottom - 15 right e left */
+}
+
+.search-box button{
+    background: #666; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    border: none; /* sem borda */
+    padding: 10px 20px; /* espaçamento entre o button e o form */
+    cursor: pointer; /* altera o ponteiro do mouse ao passar pelo button na barra de pesquisa */
+}

@@ -1,0 +1,36 @@
+.login-form{
+    background: #f4f4f4; /* cor de fundo */
+    padding: 30px; /* adiciona um espaçamento entre */
+    border-radius: 10px; /* borda arredondada com 10 pixels */
+    width: 30vw; /* largura de 30vw ao form */
+    font-family: sans-serif;
+}
+
+.input-group {
+    margin-bottom: 15px; /* adiciona um espaço de 15 pixels entre os campos de preenchimento (emal e senha) */
+    display: flex; /* torna o display um elemento flexível */
+    flex-direction: column; /* abriga a label em cima do input */
+}
+
+.input-group label{
+    font-weight: 700; /* tamanho da fonte */
+    margin-bottom: 5px; 
+    color: #333;
+}
+
+.input-group input{
+    padding: 10px; /* adiciona um espaçamento de 10 pixels entre o texto e os campos de preenchimento */
+    border: 1px solid #ccc; /* adiciona uma borda sólida de 1px com a cor branca */
+    border-radius: 5px; /* adiciona curvatura de 5 pixels à borda */
+}
+
+.login-form button{
+    width: 100%; /* ocupa a largura total do form */
+    padding: 10px; /* distância do texto para a borda do botão */
+    background: #007bff; /* fundo azul para o botão */
+    color: #fff; /* cor do texto */
+    border: none; /* sem borda */
+    border-radius: 5px; /* adiciona curvatura de 5 pixels à borda */
+    font-weight: 700; /* tamanho da fonte */
+    cursor: pointer; /* adiciona um ponteiro ao mouse ao passar em cima do botão "Entrar" */
+}
